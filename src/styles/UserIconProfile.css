@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.icon-user-data-container {
+  @apply rounded-full;
+}
+
+.user-icon {
+  @apply w-2/3;
+}
