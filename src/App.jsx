@@ -1,11 +1,12 @@
 import "./App.css";
 import { SidebarMenu } from "./components/SidebarMenu";
+import { FunctionalAppContent } from "./components/FunctionalAppContent";
 
 function App() {
   return (
-    <div className="main-app-container flex flex-row">
+    <div className="main-app-container w-full flex flex-row">
       <SidebarMenu />
-      <h2 className="text-xl font-bold">Hola</h2>
+      <FunctionalAppContent />
     </div>
   );
 }
