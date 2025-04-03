@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.app-header-content-app {
+  @apply sticky h-fit top-0 w-full border-b bg-amber-50;
+}

@@ -1,7 +1,9 @@
+import "../styles/HeaderApp.css";
+
 export function Header() {
   return (
-    <section className="w-full border-b">
-      <div className="w-full flex flex-row p-2 justify-between">
+    <section className="app-header-content-app ">
+      <div className="w-full flex flex-row p-4 justify-between">
         <div className="w-1/3">
           <form action="">
             <input placeholder="Search" type="text" />

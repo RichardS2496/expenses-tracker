@@ -1,5 +1,5 @@
 @import "tailwindcss";
 
 .sidebar {
-  @apply w-1/6 h-screen bg-zinc-800 flex flex-col  items-start text-white;
+  @apply sticky h-screen top-0 w-1/6  bg-zinc-800 flex flex-col  items-start text-white;
 }
