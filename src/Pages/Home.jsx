@@ -1,3 +1,4 @@
+import { AddTransactionModalBtn } from "../components/AddTransactionBtn";
 import { ChartViewComponent } from "../components/ChartViewComponent";
 import { ExpenseViewComponent } from "../components/ExpenseViewComponent";
 import { IncomeViewComponent } from "../components/IncomeViewComponent";
@@ -10,9 +11,7 @@ export function Home() {
     <div className=" flex flex-col gap-4">
       <div className="flex flex-row justify-between">
         <h2 className="text-4xl font-bold">Dashboard</h2>
-        <button className="self-end text-sm rounded-xl border py-1 px-2">
-          Agregar
-        </button>
+        <AddTransactionModalBtn />
       </div>
       <section className="home-grid-inner-app">
         <TotalBalanceComponent />
