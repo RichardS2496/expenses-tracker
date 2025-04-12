@@ -10,7 +10,6 @@ export function Header() {
           </form>
         </div>
         <div className="w-2/3 flex flex-row items-center justify-end">
-          <button>Añadir</button>
           <button>Notificaciones</button>
           <button>Preferencias</button>
           <button>Perfil</button>
